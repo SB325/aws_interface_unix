@@ -21,7 +21,7 @@ get_status () {
 
 get_status "$commandstring"
 echo $status
-while [ "$status" != "running" ]
+while [ "$status" != "stopped" ]
 do
 	# Wait
 	sleep 1
